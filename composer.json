@@ -1,0 +1,18 @@
+{
+	"name": "wamesk/laravel-nova",
+	"description": "WAME helpers for Laravel Nova",
+	"type": "library",
+	"version": "1.0.0",
+	"license": "proprietary",
+	"require": {
+		"php": "^8.0",
+		"laravel/nova": "^4.0",
+		"outl1ne/nova-sortable": "^3.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Wame\\LaravelNova\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
