@@ -6,7 +6,7 @@
 	"license": "proprietary",
 	"require": {
 		"php": "^8.0",
-		"laravel/nova": "^4.0|^5.0",
+		"laravel/nova": "^5.0",
 		"outl1ne/nova-sortable": "^4.0"
 	},
 	"autoload": {
