@@ -13,6 +13,10 @@ class LaravelNovaServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
+        Nova::serving(function (): void {
+            Nova::style('wame-laravel-nova', __DIR__ . '/../../resources/css/style.css');
+        });
+
         Footer::make();
     }
 }
